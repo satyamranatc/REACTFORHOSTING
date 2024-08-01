@@ -23,9 +23,7 @@ function App() {
         </button>
         <p>Welcome In React Hope You Like This</p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p className="read-the-docs">Hi I Am Satyam Rana</p>
     </>
   );
 }
