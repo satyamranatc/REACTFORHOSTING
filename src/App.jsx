@@ -18,8 +18,12 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
+        <h2>Count: {count}</h2>
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Increment Count
+        </button>
+        <button onClick={() => setCount((count) => count - 1)}>
+          Decrement count
         </button>
         <p>Welcome In React Hope You Like This</p>
       </div>
